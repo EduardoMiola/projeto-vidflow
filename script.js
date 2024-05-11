@@ -45,5 +45,9 @@ function filtrarPesquisa(event) {
         video.style.display = "block";
       }
     });
+  }else{
+    videos.forEach((video) => {
+      video.style.display = "block";
+    }); 
   }
 }
